@@ -1,0 +1,51 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    display: flex;
+    padding:1rem 1.6rem;
+    align-items: center;
+    position: relative;
+    background-color: #0a0a0a;
+    font-size: 65%;
+}
+header .logo{
+    font-size: 2rem;
+    color: #c2a504;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+header .navbar{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+header .navbar a {
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+header .navbar a:hover{
+    color: #c2a504;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    background-color: #827C68;
+    background-position:right;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
